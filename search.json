@@ -3811,7 +3811,7 @@
     "text": "From last week\n\n\nThe basic anatomy of a Shiny app:\n\nui, server, and shinyApp(ui, server)",
     "crumbs": [
       "PSY00122M-A ",
-      "Week 10: Shiny Dashboards Part 2",
+      "Week 10: Shiny Apps 2",
       "Seminar"
     ]
   },
@@ -3823,7 +3823,7 @@
     "text": "From last week\n\n\nHow to populate the UI with:\n\nselectInput() to create a dropdown menu (chose a y-axis variable)\ncheckboxInput() to toggle a feature on/off (added points to a plot)\nplotOutput() to define where the plot appears",
     "crumbs": [
       "PSY00122M-A ",
-      "Week 10: Shiny Dashboards Part 2",
+      "Week 10: Shiny Apps 2",
       "Seminar"
     ]
   },
@@ -3835,7 +3835,7 @@
     "text": "From last week\n\n\nrenderPlot() to create a plot output\nHow to use inputs in the server:\n\nUsed dropdown selection in if (...) { ... } else { ... } blocks to choose y-axis variable\nUsed checkbox selection in if (...) {} to add geom_point()",
     "crumbs": [
       "PSY00122M-A ",
-      "Week 10: Shiny Dashboards Part 2",
+      "Week 10: Shiny Apps 2",
       "Seminar"
     ]
   },
@@ -3847,7 +3847,7 @@
     "text": "Today\n\nInspect an updated app with new core features:\n\nGive users more controls\nUse these controls more efficiently “under the hood”\n\nLearn how to implement the features in the ui and server",
     "crumbs": [
       "PSY00122M-A ",
-      "Week 10: Shiny Dashboards Part 2",
+      "Week 10: Shiny Apps 2",
       "Seminar"
     ]
   },
@@ -3859,7 +3859,7 @@
     "text": "Today\n\nNew UI features:\n\nSidebar layout (sidebarLayout(), sidebarPanel(), mainPanel())\nA new input that filters data\nMultiple tabs for different plots\n\nNew server features “under the hood”:\n\nReactive filtering with reactive()\nEfficient use of user input in ggplot with .data[[input$outcome]]\n\n\n\nGive a quick roadmap:\n\nFirst, look at the finished Week 10 app and connect it to Week 9.\nThen, focus on the new UI structure: sidebar vs main panel and tabs.\nFinally, explore the server-side improvements: reactive filtering, .data[[...]], and the new checkbox that toggles faceting.",
     "crumbs": [
       "PSY00122M-A ",
-      "Week 10: Shiny Dashboards Part 2",
+      "Week 10: Shiny Apps 2",
       "Seminar"
     ]
   },
@@ -3871,7 +3871,7 @@
     "text": "Today\n\nInspect an updated app with new core features",
     "crumbs": [
       "PSY00122M-A ",
-      "Week 10: Shiny Dashboards Part 2",
+      "Week 10: Shiny Apps 2",
       "Seminar"
     ]
   },
@@ -3883,7 +3883,7 @@
     "text": "Inspect an updated app\n\nOur finished app for this week\n\nUses the therapy dataset\nShows how support_level AND therapy are related to outcomes\nGives users more control over the data shown in the plots\n\n\n\n\n\n\n\nsupport_level\ntherapy\nage\nloneliness_score\nwellbeing_score\nsleep_quality\nsex\nyear\n\n\n\n\nMedium\nYes\n23\n69\n63\n3\nMale\n2022\n\n\nMedium\nYes\n31\n46\n89\n8\nMale\n2019\n\n\nHigh\nYes\n35\n46\n80\n8\nMale\n2019\n\n\nLow\nNo\n29\n40\n46\n5\nFemale\n2020\n\n\nLow\nYes\n34\n40\n69\n9\nFemale\n2022\n\n\nLow\nNo\n25\n68\n38\n6\nMale\n2019",
     "crumbs": [
       "PSY00122M-A ",
-      "Week 10: Shiny Dashboards Part 2",
+      "Week 10: Shiny Apps 2",
       "Seminar"
     ]
   },
@@ -3895,7 +3895,7 @@
     "text": "Inspect an updated app\n\nOur finished app for this week\n\nUses the therapy dataset\nShows how support_level AND therapy are related to outcomes\nGives users more control over the data shown in the plots\n\n\nFull app: Open the example Shiny app",
     "crumbs": [
       "PSY00122M-A ",
-      "Week 10: Shiny Dashboards Part 2",
+      "Week 10: Shiny Apps 2",
       "Seminar"
     ]
   },
@@ -3907,7 +3907,7 @@
     "text": "Inspect an updated app\n\nKey features:\n\nInputs are in a side panel, plots in a main panel\nAs in week 9, user choose which outcome to explore, but now users can also filter support levels: Low, Medium, High\nUsers can switch between two tabs to view the effects of support and therapy\n\n\n\nHighlight the continuity:\n\nSame dataset as before (therapy_df).\nSame key variables: support_level, therapy, wellbeing, loneliness.\nThe new parts are about how we organise the UI and reuse code across multiple plots.\n\nEmphasise the “dashboard” feel:\n\nInstead of a single plot responding to inputs, we now have a mini dashboard:\n\nmultiple views,\nshared controls, and\none plot-specific control (the facet checkbox).",
     "crumbs": [
       "PSY00122M-A ",
-      "Week 10: Shiny Dashboards Part 2",
+      "Week 10: Shiny Apps 2",
       "Seminar"
     ]
   },
@@ -3919,7 +3919,7 @@
     "text": "Today\n\nNew UI features",
     "crumbs": [
       "PSY00122M-A ",
-      "Week 10: Shiny Dashboards Part 2",
+      "Week 10: Shiny Apps 2",
       "Seminar"
     ]
   },
@@ -3931,7 +3931,7 @@
     "text": "New UI features: Overview\n\nToday’s new UI concepts:\n\nSplitting the page into a sidebar for inputs and a main panel for outputs\nIncluding a UI input that filters data\nIncluding multiple tabs in the main panel for different plots\n\n\n\nThis slide is just a preview.\n\nWe’ll first look at sidebar vs main panel.\nThen we’ll see how to fill the sidebar with inputs.\nThen we’ll look at how to add multiple tabs in the main panel.",
     "crumbs": [
       "PSY00122M-A ",
-      "Week 10: Shiny Dashboards Part 2",
+      "Week 10: Shiny Apps 2",
       "Seminar"
     ]
   },
@@ -3943,7 +3943,7 @@
     "text": "New UI features\n\nToday’s new UI concepts:\n\nSplitting the page into a sidebar for inputs and a main panel for outputs\n\n\n\nStart with splitting the page into sidebar and main panel",
     "crumbs": [
       "PSY00122M-A ",
-      "Week 10: Shiny Dashboards Part 2",
+      "Week 10: Shiny Apps 2",
       "Seminar"
     ]
   },
@@ -3955,7 +3955,7 @@
     "text": "Sidebar and main panel\n\nIn Week 9, all UI elements lived directly inside fluidPage().\n\nui &lt;- fluidPage(\n  titlePanel(\"Wellbeing and Loneliness Dashboard\"),\n\n  p(\"Use the controls on the left to explore factors influencing wellbeing and loneliness.\"),\n\n)",
     "crumbs": [
       "PSY00122M-A ",
-      "Week 10: Shiny Dashboards Part 2",
+      "Week 10: Shiny Apps 2",
       "Seminar"
     ]
   },
@@ -3967,7 +3967,7 @@
     "text": "Sidebar and main panel\nWe now add a layout function\nui &lt;- fluidPage(\n  titlePanel(\"Wellbeing and Loneliness Dashboard\"),\n\n  p(\"Use the controls on the left to explore factors influencing wellbeing and loneliness.\"),\n\n  sidebarLayout(\n   \n  )\n  \n)\n\nTells shiny to use a layout with a sidebar and main panel",
     "crumbs": [
       "PSY00122M-A ",
-      "Week 10: Shiny Dashboards Part 2",
+      "Week 10: Shiny Apps 2",
       "Seminar"
     ]
   },
@@ -3979,7 +3979,7 @@
     "text": "Sidebar and main panel\nWe fill in the parts of the new layout\nui &lt;- fluidPage(\n  ...\n\n  sidebarLayout(\n    sidebarPanel(\n      # inputs go here (e.g., dropdowns, checkboxes)\n    ),\n    mainPanel(\n      # outputs go here (e.g., plots)\n    )\n  )\n  \n)\n\nKey idea:\n\nsidebarLayout() defines two regions:\n\nsidebarPanel() – the left-hand column with inputs.\nmainPanel() – the right-hand column with plots/output.\n\n\nThis makes the app feel more like a standard data dashboard.",
     "crumbs": [
       "PSY00122M-A ",
-      "Week 10: Shiny Dashboards Part 2",
+      "Week 10: Shiny Apps 2",
       "Seminar"
     ]
   },
@@ -3991,7 +3991,7 @@
     "text": "Filling in the sidebar\nPop in the same kinds of inputs from week 9\nsidebarPanel(\n\n  selectInput(\n    inputId = \"outcome\", # name of the part in the input object\n    label   = \"Outcome to explore:\", # label shown to the user\n    choices = c(\n      \"Wellbeing score\"  = \"wellbeing_score\",\n      \"Loneliness score\" = \"loneliness_score\"\n    ),\n    selected = \"wellbeing_score\"\n  )\n)\n\nPoint out:\n\nThe dropdown (selectInput) is essentially identical to Week 9, but now lives inside the sidebar.",
     "crumbs": [
       "PSY00122M-A ",
-      "Week 10: Shiny Dashboards Part 2",
+      "Week 10: Shiny Apps 2",
       "Seminar"
     ]
   },
@@ -4003,7 +4003,7 @@
     "text": "Filling in the sidebar: outcome dropdown\nRemember: this will store input$outcome as one of the two choice strings:\n\"wellbeing_score\" or \"loneliness_score\"\nselectInput(\n  inputId = \"outcome\", \n  label   = \"Outcome to explore:\",\n  choices = c(\n    \"Wellbeing score\"  = \"wellbeing_score\",\n    \"Loneliness score\" = \"loneliness_score\"\n  ),\n  selected = \"wellbeing_score\"\n)\n\nRemind students:\n\nIf the user chooses “Loneliness score”, then input$outcome becomes the string \"loneliness_score\".\nWe will later use this string to pick the correct column to plot.",
     "crumbs": [
       "PSY00122M-A ",
-      "Week 10: Shiny Dashboards Part 2",
+      "Week 10: Shiny Apps 2",
       "Seminar"
     ]
   },
@@ -4015,7 +4015,7 @@
     "text": "New UI features\n\nToday’s new UI concepts:\n\nIncluding a UI input that filters data",
     "crumbs": [
       "PSY00122M-A ",
-      "Week 10: Shiny Dashboards Part 2",
+      "Week 10: Shiny Apps 2",
       "Seminar"
     ]
   },
@@ -4027,7 +4027,7 @@
     "text": "Filling in the sidebar: support-level checkboxes\n\nNew type of input: group of checkboxes\ncheckboxGroupInput(\n  inputId  = \"support_filter\",\n  label    = \"Include support levels:\",\n  choices  = c(\"Low\", \"Medium\", \"High\"),\n  selected = c(\"Low\", \"Medium\", \"High\")\n)",
     "crumbs": [
       "PSY00122M-A ",
-      "Week 10: Shiny Dashboards Part 2",
+      "Week 10: Shiny Apps 2",
       "Seminar"
     ]
   },
@@ -4039,7 +4039,7 @@
     "text": "Filling in the sidebar: support-level checkboxes\n\nThis will store input$support_filter as a vector of the user’s choices\n\nIf all checked: c(\"Low\", \"Medium\", \"High\")\ncheckboxGroupInput(\n  inputId  = \"support_filter\",\n  label    = \"Include support levels:\",\n  choices  = c(\"Low\", \"Medium\", \"High\"),\n  selected = c(\"Low\", \"Medium\", \"High\")\n)\n\nEmphasise:\n\ninput$support_filter is a vector of strings:\n\nInitially: c(\"Low\", \"Medium\", \"High\").\nIf the user unchecks “Medium”, it becomes c(\"Low\", \"High\").",
     "crumbs": [
       "PSY00122M-A ",
-      "Week 10: Shiny Dashboards Part 2",
+      "Week 10: Shiny Apps 2",
       "Seminar"
     ]
   },
@@ -4051,7 +4051,7 @@
     "text": "Filling in the sidebar: support-level checkboxes\n\nLater, vector of choices will be used to filter data in server\ncheckboxGroupInput(\n  inputId  = \"support_filter\",\n  label    = \"Include support levels:\",\n  choices  = c(\"Low\", \"Medium\", \"High\"),\n  selected = c(\"Low\", \"Medium\", \"High\")\n)\n\n\nLater in the server, we will use this vector to filter the dataset before plotting.",
     "crumbs": [
       "PSY00122M-A ",
-      "Week 10: Shiny Dashboards Part 2",
+      "Week 10: Shiny Apps 2",
       "Seminar"
     ]
   },
@@ -4063,7 +4063,7 @@
     "text": "New UI features\n\nToday’s new UI concepts:\n\nIncluding multiple tabs in the main panel for different output plots\n\n\n\nThose were our new INPUT features.\nOur UI also has this new output feature, where we’re now going to have different tabs for different output plots",
     "crumbs": [
       "PSY00122M-A ",
-      "Week 10: Shiny Dashboards Part 2",
+      "Week 10: Shiny Apps 2",
       "Seminar"
     ]
   },
@@ -4075,7 +4075,7 @@
     "text": "Multiple tabs in the main panel\nIn week 9, we had a single output plot\nNow we’ll show multiple plots in separate tabs\nui &lt;- fluidPage(\n  ...\n\n  sidebarLayout(\n    sidebarPanel(\n      # inputs go here (e.g., dropdowns, checkboxes)\n    ),\n    mainPanel(\n      # outputs go here (e.g., plots) &lt;- Now MULTIPLE tabs!\n    )\n  )\n  \n)",
     "crumbs": [
       "PSY00122M-A ",
-      "Week 10: Shiny Dashboards Part 2",
+      "Week 10: Shiny Apps 2",
       "Seminar"
     ]
   },
@@ -4087,7 +4087,7 @@
     "text": "Multiple tabs in the main panel\nWe’ll show multiple plots in separate tabs using tabsetPanel()\nmainPanel(\n  tabsetPanel(\n    tabPanel(\n      # tab title and contents\n    ),\n    tabPanel(\n      # tab title and contents\n    )\n  )\n)\n\nExplain:\n\ntabsetPanel() is a container that holds multiple tabPanel()s.\nEach tabPanel():\n\nHas a title.\nContains the outputs (and possibly inputs) specific to that tab.",
     "crumbs": [
       "PSY00122M-A ",
-      "Week 10: Shiny Dashboards Part 2",
+      "Week 10: Shiny Apps 2",
       "Seminar"
     ]
   },
@@ -4099,7 +4099,7 @@
     "text": "Multiple tabs in the main panel\nZooming in on a single tab, Support:\ntabPanel(\n  title = \"Support\",\n  plotOutput(\"support_plot\") # just like our single output in week 9\n)\n\nExplain:\n\ntabsetPanel() is a container that holds multiple tabPanel()s.\nEach tabPanel():\n\nHas a title.\nContains the outputs (and possibly inputs) specific to that tab.\n\nplotOutput(\"support_plot\"):\n\nSpace where Shiny will display the plot called output$support_plot from the server.",
     "crumbs": [
       "PSY00122M-A ",
-      "Week 10: Shiny Dashboards Part 2",
+      "Week 10: Shiny Apps 2",
       "Seminar"
     ]
   },
@@ -4111,7 +4111,7 @@
     "text": "Multiple tabs in the main panel\nZooming in on a single tab, Therapy:\ntabPanel(\n  title = \"Therapy\",\n  plotOutput(\"therapy_plot\")\n)",
     "crumbs": [
       "PSY00122M-A ",
-      "Week 10: Shiny Dashboards Part 2",
+      "Week 10: Shiny Apps 2",
       "Seminar"
     ]
   },
@@ -4123,7 +4123,7 @@
     "text": "Multiple tabs in the main panel\nCan add tab-specific input:\ntabPanel(\n  title = \"Therapy\",\n  checkboxInput(\n    inputId = \"facet_by_support\",\n    label   = \"Show breakdown by support level\",\n    value   = FALSE\n  ),\n  plotOutput(\"therapy_plot\")\n)\n\nKey point:\n\nInputs can live in the sidebar (global) or inside individual tabs.\nThe facet_by_support checkbox only affects the Therapy tab plot, because only that server code reads input$facet_by_support.",
     "crumbs": [
       "PSY00122M-A ",
-      "Week 10: Shiny Dashboards Part 2",
+      "Week 10: Shiny Apps 2",
       "Seminar"
     ]
   },
@@ -4135,7 +4135,7 @@
     "text": "New server features: Overview\n\nReactive filtering with reactive()\nEfficient use of user input in ggplot with .data[[input$outcome]]\nPlot-specific user controls\n\n\nThis slide previews the three main server-side concepts:\n\nA reactive filtered dataset.\nEfficient variable lookup inside ggplot().\nUsing a checkbox to add/remove a facet layer.",
     "crumbs": [
       "PSY00122M-A ",
-      "Week 10: Shiny Dashboards Part 2",
+      "Week 10: Shiny Apps 2",
       "Seminar"
     ]
   },
@@ -4147,7 +4147,7 @@
     "text": "New server features\n\nReactive filtering with reactive()",
     "crumbs": [
       "PSY00122M-A ",
-      "Week 10: Shiny Dashboards Part 2",
+      "Week 10: Shiny Apps 2",
       "Seminar"
     ]
   },
@@ -4159,7 +4159,7 @@
     "text": "Reactive expressions: goal\n\nLast week, we used all the data in the plot\n\nNow:\n\nOur input includes a group of checkboxes where users can select which support levels they want to see: Low, Medium, and/or High\nWe’ll use these checkboxes to filter which data points appear in the plots",
     "crumbs": [
       "PSY00122M-A ",
-      "Week 10: Shiny Dashboards Part 2",
+      "Week 10: Shiny Apps 2",
       "Seminar"
     ]
   },
@@ -4171,7 +4171,7 @@
     "text": "Reactive expressions: goal\nRecall the sidebar checkboxes:\ncheckboxGroupInput(\n  inputId  = \"support_filter\",\n  label    = \"Include support levels:\",\n  choices  = c(\"Low\", \"Medium\", \"High\"),\n  selected = c(\"Low\", \"Medium\", \"High\")\n)",
     "crumbs": [
       "PSY00122M-A ",
-      "Week 10: Shiny Dashboards Part 2",
+      "Week 10: Shiny Apps 2",
       "Seminar"
     ]
   },
@@ -4183,7 +4183,7 @@
     "text": "Reactive expressions: goal\n\nRemember, user’s choices are stored in input$support_filter as a vector\nDefault vector is c(\"Low\", \"Medium\", \"High\")\nWe can use this vector to do some familiar tidyverse wrangling:\n\ntherapy_df |&gt;\n  filter(support_level %in% input$support_filter)",
     "crumbs": [
       "PSY00122M-A ",
-      "Week 10: Shiny Dashboards Part 2",
+      "Week 10: Shiny Apps 2",
       "Seminar"
     ]
   },
@@ -4195,7 +4195,7 @@
     "text": "Reactive expressions: goal\nDon’t want to repeat this filter for every one of our plots!\ntherapy_df |&gt;\n  filter(support_level %in% input$support_filter)\n\nHighlight the problem:\n\nRepeating the same filter code in multiple places is error-prone and harder to maintain.\nIf you ever change the filtering logic, you’d need to remember to update it everywhere.",
     "crumbs": [
       "PSY00122M-A ",
-      "Week 10: Shiny Dashboards Part 2",
+      "Week 10: Shiny Apps 2",
       "Seminar"
     ]
   },
@@ -4204,10 +4204,10 @@
     "href": "data-vis/week-10/seminar10.html#reactive-expressions-re-use-code-as-a-function",
     "title": "Week 10 Seminar: Shiny Apps 2",
     "section": "Reactive expressions: re-use code as a function",
-    "text": "Reactive expressions: re-use code as a function\nInstead, we wrap the filtering in a reactive expression Creates a filtered_data() **function* that returns the filtered data\nfiltered_data &lt;- reactive({\n  therapy_df |&gt;\n    filter(support_level %in% input$support_filter)\n})",
+    "text": "Reactive expressions: re-use code as a function\nInstead, we wrap the filtering in a reactive expression\nCreates a filtered_data() function that returns the filtered data\nfiltered_data &lt;- reactive({\n  therapy_df |&gt;\n    filter(support_level %in% input$support_filter)\n})",
     "crumbs": [
       "PSY00122M-A ",
-      "Week 10: Shiny Dashboards Part 2",
+      "Week 10: Shiny Apps 2",
       "Seminar"
     ]
   },
@@ -4216,10 +4216,10 @@
     "href": "data-vis/week-10/seminar10.html#reactive-expressions-re-use-code-as-a-function-1",
     "title": "Week 10 Seminar: Shiny Apps 2",
     "section": "Reactive expressions: re-use code as a function",
-    "text": "Reactive expressions: re-use code as a function\nInstead, we wrap the filtering in a reactive expression Creates a filtered_data() **function* that returns the filtered data\nfiltered_data &lt;- reactive({\n  therapy_df |&gt;\n    filter(support_level %in% input$support_filter)\n})\n\n# Now this:\nfiltered_data()\n\n# Does the same thing as:\ntherapy_df |&gt;\n    filter(support_level %in% input$support_filter)",
+    "text": "Reactive expressions: re-use code as a function\nInstead, we wrap the filtering in a reactive expression\nCreates a filtered_data() **function* that returns the filtered data\nfiltered_data &lt;- reactive({\n  therapy_df |&gt;\n    filter(support_level %in% input$support_filter)\n})\n\n# Now this:\nfiltered_data()\n\n# Does the same thing as:\ntherapy_df |&gt;\n    filter(support_level %in% input$support_filter)",
     "crumbs": [
       "PSY00122M-A ",
-      "Week 10: Shiny Dashboards Part 2",
+      "Week 10: Shiny Apps 2",
       "Seminar"
     ]
   },
@@ -4231,7 +4231,7 @@
     "text": "Reactive expressions: why this is useful\n\nWhy use reactive() here?\n\nWe only write the filter once\nAny plot can use:\n\nfiltered_data() |&gt;\n  ggplot(...)\n\nConnect to general programming principles:\n\nThis is an example of DRY (“Don’t Repeat Yourself”).\nreactive() is Shiny’s way of letting you define reusable, reactive “helper functions” that depend on inputs.",
     "crumbs": [
       "PSY00122M-A ",
-      "Week 10: Shiny Dashboards Part 2",
+      "Week 10: Shiny Apps 2",
       "Seminar"
     ]
   },
@@ -4243,7 +4243,7 @@
     "text": "New server features\n\nEfficient use of user input in ggplot with .data[[input$outcome]]",
     "crumbs": [
       "PSY00122M-A ",
-      "Week 10: Shiny Dashboards Part 2",
+      "Week 10: Shiny Apps 2",
       "Seminar"
     ]
   },
@@ -4255,7 +4255,7 @@
     "text": "Efficiently referencing UI input in ggplot\n\nGoal:\n\nUse the outcome dropdown to choose which column goes on the ggplot y-axis, like Week 9\nBut avoid writing long if/else blocks to choose different ggplot code for each outcome",
     "crumbs": [
       "PSY00122M-A ",
-      "Week 10: Shiny Dashboards Part 2",
+      "Week 10: Shiny Apps 2",
       "Seminar"
     ]
   },
@@ -4267,7 +4267,7 @@
     "text": "Efficiently referencing UI input in ggplot\n\nRecall the dropdown menu:\nselectInput(\n  inputId = \"outcome\",\n  label   = \"Outcome to explore:\",\n  choices = c(\n    \"Wellbeing score\"  = \"wellbeing_score\",\n    \"Loneliness score\" = \"loneliness_score\"\n  ),\n  selected = \"wellbeing_score\"\n)",
     "crumbs": [
       "PSY00122M-A ",
-      "Week 10: Shiny Dashboards Part 2",
+      "Week 10: Shiny Apps 2",
       "Seminar"
     ]
   },
@@ -4279,7 +4279,7 @@
     "text": "Efficiently referencing UI input in ggplot\n\n\nRemember, user’s choices are stored in input$outcome as string\nDefault string is \"wellbeing_score\" and can be switched to \"loneliness_score\"",
     "crumbs": [
       "PSY00122M-A ",
-      "Week 10: Shiny Dashboards Part 2",
+      "Week 10: Shiny Apps 2",
       "Seminar"
     ]
   },
@@ -4291,7 +4291,7 @@
     "text": "Efficiently referencing UI input in ggplot\n\nLast time, we used if\\else to get ggplot to use the chosen variable on the y-axis:\nif(input$outcome == \"wellbeing_score\") {\n  output_plot &lt;- ggplot(therapy_df, aes(y = wellbeing_score)) +\n    ...\n} else {\n  output_plot &lt;- ggplot(therapy_df, aes(y = lone_liness_score)) +\n    ...\n}",
     "crumbs": [
       "PSY00122M-A ",
-      "Week 10: Shiny Dashboards Part 2",
+      "Week 10: Shiny Apps 2",
       "Seminar"
     ]
   },
@@ -4303,7 +4303,7 @@
     "text": "Efficiently referencing UI input in ggplot\n\nWouldn’t it be useful if we could avoid writing out the full ggplot with a different y-axis each time?\n\nWhy can’t we just do this?\nggplot(therapy_df, aes(y = input$outcome)) +\n  ...",
     "crumbs": [
       "PSY00122M-A ",
-      "Week 10: Shiny Dashboards Part 2",
+      "Week 10: Shiny Apps 2",
       "Seminar"
     ]
   },
@@ -4315,7 +4315,7 @@
     "text": "Efficiently referencing UI input in ggplot\n\nWouldn’t it be useful if we could avoid writing out the full ggplot with a different y-axis each time?\n\nWhy can’t we just do this?\nggplot(therapy_df, aes(y = input$outcome)) +\n  ...\nWould produce:\nggplot(therapy_df, aes(y = \"wellbeing_score\")) + # note the quotes\n  ...",
     "crumbs": [
       "PSY00122M-A ",
-      "Week 10: Shiny Dashboards Part 2",
+      "Week 10: Shiny Apps 2",
       "Seminar"
     ]
   },
@@ -4327,7 +4327,7 @@
     "text": "Efficiently referencing UI input in ggplot\n\nggplot needs to interpret arguments of aes() as variables, not strings\n\nInside ggplot, we can use .data[[...]]:\nfiltered_data() |&gt;\n  ggplot(aes(\n    x    = support_level,\n    y    = .data[[input$outcome]], \n    fill = support_level\n  )) +\n  ...\nRead as: “Use the column whose name is given by this string.”",
     "crumbs": [
       "PSY00122M-A ",
-      "Week 10: Shiny Dashboards Part 2",
+      "Week 10: Shiny Apps 2",
       "Seminar"
     ]
   },
@@ -4339,7 +4339,7 @@
     "text": "Efficiently referencing UI input in ggplot\n\nSo:\n\nIf input$outcome == \"wellbeing_score\":\n\n.data[[input$outcome]] → the wellbeing_score column.\n\nIf input$outcome == \"loneliness_score\":\n\n.data[[input$outcome]] → the loneliness_score column.\n\n\nNo need for long if\\else blocks\n\nKey advantage:\n\nWe can write one ggplot call and have it automatically adjust to whichever outcome the user selects.\nNo need to duplicate the entire ggplot code in if/else blocks.",
     "crumbs": [
       "PSY00122M-A ",
-      "Week 10: Shiny Dashboards Part 2",
+      "Week 10: Shiny Apps 2",
       "Seminar"
     ]
   },
@@ -4351,7 +4351,7 @@
     "text": "Efficiently referencing UI input in ggplot\n\nUse a quick if\\else just to format the y-axis label\nif (input$outcome == \"wellbeing_score\") {\n  y_lab &lt;- \"Wellbeing score\"\n} else {\n  y_lab &lt;- \"Loneliness score\"\n}\nAlternative: regular expressions to alter the string to a nice axis label",
     "crumbs": [
       "PSY00122M-A ",
-      "Week 10: Shiny Dashboards Part 2",
+      "Week 10: Shiny Apps 2",
       "Seminar"
     ]
   },
@@ -4363,7 +4363,7 @@
     "text": "New server features\n\nPlot-specific user controls",
     "crumbs": [
       "PSY00122M-A ",
-      "Week 10: Shiny Dashboards Part 2",
+      "Week 10: Shiny Apps 2",
       "Seminar"
     ]
   },
@@ -4375,7 +4375,7 @@
     "text": "Plot-specific UI controls: revisiting Week 9\n\nIn Week 9, we used a checkbox to optionally add a layer:\n# In ui:\ncheckboxInput(\n  inputId = \"show_points\",\n  label   = \"Show individual data points\",\n  value   = FALSE\n)\n\n# In server:\noutput_plot &lt;- ...\n\nif (input$show_points) {\n  output_plot &lt;- output_plot +\n    geom_point(position = position_jitter(width = 0.1), alpha = 0.4)\n}\n\noutput_plot\n\nRemind them:\n\nThis was their first example of a plot-specific control that toggles a feature on and off.\nThe pattern was:\n\nBuild a base plot,\nThen conditionally add a layer if a checkbox is TRUE.",
     "crumbs": [
       "PSY00122M-A ",
-      "Week 10: Shiny Dashboards Part 2",
+      "Week 10: Shiny Apps 2",
       "Seminar"
     ]
   },
@@ -4387,7 +4387,7 @@
     "text": "Plot-specific UI controls: facet on/off\n\nIn Week 10, we use the same pattern in the Therapy tab:\n# In ui:\ncheckboxInput(\n  inputId = \"facet_by_support\",\n  label   = \"Show breakdown by support level\",\n  value   = FALSE\n)\n\n# In server:\ntherapy_plot &lt;- ...\n\nif (input$facet_by_support) {\n  therapy_plot &lt;- therapy_plot + facet_wrap(~ support_level)\n}\n\ntherapy_plot\n\nEmphasise the parallel:\n\nInstead of toggling a geom_point layer, we’re now toggling a facet_wrap layer.\nThe logic is the same:\n\nBuild a base plot.\nCheck the checkbox value.\nIf TRUE, add an extra feature (facets).",
     "crumbs": [
       "PSY00122M-A ",
-      "Week 10: Shiny Dashboards Part 2",
+      "Week 10: Shiny Apps 2",
       "Seminar"
     ]
   },
@@ -4399,7 +4399,7 @@
     "text": "Summary\nToday we:\n\nIntroduced new UI features:\n\nsidebarLayout(), sidebarPanel(), mainPanel()\nA support-level filter based on checkboxGroupInput()\nMultiple tabs using tabsetPanel() and tabPanel()",
     "crumbs": [
       "PSY00122M-A ",
-      "Week 10: Shiny Dashboards Part 2",
+      "Week 10: Shiny Apps 2",
       "Seminar"
     ]
   },
@@ -4411,7 +4411,7 @@
     "text": "Summary\nToday we:\n\nIntroduced new server features:\n\nRe-usable data filter using a reactive() expression\nEfficient use of the outcome input via .data[[input$outcome]] in ggplot()\nA tab-specific checkbox that toggles facet_wrap(~ support_level) in the Therapy plot\n\n\n\nClose the loop:\n\nEmphasise that the Week 10 app is a model for their final assessment:\n\nMultiple views of the same data.\nShared inputs.\nPossibly one or two plot-specific controls.\n\nEncourage them to think: “How could I adapt this pattern to my own dataset?”",
     "crumbs": [
       "PSY00122M-A ",
-      "Week 10: Shiny Dashboards Part 2",
+      "Week 10: Shiny Apps 2",
       "Seminar"
     ]
   },
