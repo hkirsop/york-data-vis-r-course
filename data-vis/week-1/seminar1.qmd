@@ -141,7 +141,7 @@ base_theme <- function () {
 
 ## About us
 
-Instructor: Layla Unger
+Instructor: Hannah Kirsop
 
 <br>
 
